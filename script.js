@@ -54,3 +54,22 @@ if(usuario=="admin" && senha=="1234"){
 document.write("Login ou senha incorretos")
 
 document.write("<br></br>")
+
+//crie um programa que calcule a media de 7 notas e exiba reprovado ou aprovado
+document.write("<br></br>")
+document.write("<br></br>")
+let nota1=parseFloat(prompt("Digite sua nota 1"));
+let nota2=parseFloat(prompt("Digite sua nota 2"));
+let nota3=parseFloat(prompt("Digite sua nota 3"));
+let nota4=parseFloat(prompt("Digite sua nota 4"));
+let nota5=parseFloat(prompt("Digite sua nota 5"));
+let nota6=parseFloat(prompt("Digite sua nota 6"));
+let nota7=parseFloat(prompt("Digite sua nota 7"));
+let notas= nota1+nota2+nota3+nota4+nota5+nota6+nota7
+let media=notas/7
+if(media>=6){
+    document.write("Voce foi aprovado")
+}else
+document.write("Voce foi reprovado")
+
+document.write("<br></br>")
