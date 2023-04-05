@@ -73,3 +73,24 @@ if(media>=6){
 document.write("Voce foi reprovado")
 
 document.write("<br></br>")
+
+//Crie um programa que digite nome, idade, curso e ano na tela um embaixo do outro, no seu HTML coloque um gundo e um titulo, e o javascript deve ser externo
+document.write("<br></br>")
+document.write("<br></br>")
+let nome=prompt("Digite seu nome")
+let idade2=parseInt(prompt("Digite sua idade"))
+let curso=prompt("Digite o nome do seu curso")
+let ano=prompt("Digite o ano que você começou seu curso")
+document.write("O seu nome é ",nome)
+document.write("<br></br>")
+document.write("Você possui ",idade2," anos")
+document.write("<br></br>")
+document.write("Você cursa ",curso)
+document.write("<br></br>")
+document.write("E ingressou no curso no ano de ",ano)
+document.write("<br></br>")
+document.body.style.backgroundColor="#13CEF0"
+
+
+document.write("<br></br>")
+document.write("<br></br>")
