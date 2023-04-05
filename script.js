@@ -104,3 +104,11 @@ let num3= "125.66666666";
 console.log (num3)
 let verificar2 = typeof num3
 console.log(verificar2)
+let num4= parseFloat(num3)
+
+
+console.log (num4)
+let verificar = typeof num4
+console.log(verificar)
+
+console.log (num4.toFixed(2))
