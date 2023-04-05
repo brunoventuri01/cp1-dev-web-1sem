@@ -42,3 +42,15 @@ if(idade<=12){
     document.write("É um idoso")
 }
 document.write("<br></br>")
+
+//crie um programa que receba um nome de usuario e uma senha
+document.write("<br></br>")
+document.write("<br></br>")
+let usuario=prompt("Digite o nome de usuário")
+let senha=prompt("Digite sua senha")
+if(usuario=="admin" && senha=="1234"){
+    document.write("Usuario logado com sucesso")
+}else
+document.write("Login ou senha incorretos")
+
+document.write("<br></br>")
