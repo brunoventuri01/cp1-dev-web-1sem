@@ -98,3 +98,9 @@ document.write("<br></br>")
 // Crie um programa em Javascript que troque a palavra lugar por mundo da frase O LUGAR VIRA TECNOLOGIA e apresente na tela.
 let frase="O LUGAR VIRA TECNOLOGIA"
 document.write(frase.replace("LUGAR","MUNDO"))
+
+//Crie um programa que declare a variável como String depois converta para float e em seguida apresente apenas dois numeros depois da virgula
+let num3= "125.66666666";
+console.log (num3)
+let verificar2 = typeof num3
+console.log(verificar2)
